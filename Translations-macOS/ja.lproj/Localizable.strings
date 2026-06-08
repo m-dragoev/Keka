@@ -26,7 +26,6 @@
 "File \"%@\" needs a password to be extracted" = "ファイル\"%@\"を展開するにはパスワードが必要です";
 "File \"%@\" needs a special encoding to be extracted" = "ファイル\"%@\"を展開するには特殊なエンコーディングが必要です";
 "Extraction of \"%@\" done" = "\"%@\"を展開しました";
-"Extraction of \"%@\" failed" = "\"%@\"を展開できませんでした";
 "Extraction of %i files done" = "%i個のファイルを展開しました";
 "Extraction complete" = "展開を完了しました";
 "Extraction fail" = "展開できませんでした";
@@ -39,8 +38,8 @@
 "Operation not implemented" = "操作が実装されていません";
 "Performing operation..." = "操作を実行中…";
 "Waiting..." = "待機中…";
-"Extracting \"%@...\"" = "\"%@\"を展開中…";
 "Extracting \"%@\"" = "\"%@\"を展開中";
+"Extracting \"%@...\"" = "\"%@\"を展開中…";
 "Creating %@ file..." = "%@ファイルを作成中…";
 "Creating file \"%@\"" = "\"%@\"を作成中";
 "Creating file \"%@...\"" = "\"%@\"を作成中…";
@@ -67,7 +66,7 @@
 "Choose where do you want to extract \"%@\"." = "\"%@\" の展開先を選択してください。";
 "Select all the volumes from \"%@\" or the folder that contains them." = "\"%@\"からすべてのボリューム、またはこれらを含むフォルダを選択してください。";
 "Select the folder that contains \"%@\"." = "\"%@\"を含むフォルダを選択";
-"Extraction of \"%@\" failed." = "\"%@\"を展開できませんでした。";
+"Extraction of \"%@\" failed" = "\"%@\"を展開できませんでした";
 "Extraction of \"%@\" completed" = "\"%@\"の展開が完了しました";
 "The extraction completed but the quarantine was not applied.\nPlease reinstall Keka to fix this issue" = "展開は完了しましたが、検疫が適用されませんでした。\nこの問題を解決するには、Kekaを再インストールしてください";
 "Keka - %i on queue" = "Keka - 残りの項目: %i個";
@@ -150,6 +149,7 @@
 "This archive is locked" = "アーカイブはロックされています";
 "Write error. No permission? No space left?" = "書き込みエラーです。アクセス権や空き領域を確認してください。";
 "Can't open the file, maybe it's not accessible" = "ファイルを開けません。アクセスできない可能性があります";
+"No files matching the mask" = "条件に一致するファイルがありません";
 "There were some read errors" = "読み込みエラーがありました";
 "Dismissed trailing data, the extraction might be incomplete" = "末尾のデータを切り捨てました。展開が不完全な可能性があります";
 "Window size not supported, too much memory required" = "ウインドウサイズに対応していません。多くのメモリが必要です";
